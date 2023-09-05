@@ -27,13 +27,13 @@
   </header>
 <div class="main-content">
   <form action="" method="get" class="user">
+    <fieldset>
     <div class="user">
       <label for="name">Please enter your name: </label>
       <input type="text" name="name" id="name" required>
     </div>
     <div class="genders">
       Select Gender
-    </div>
     <div>
       <label for="male">Male</label>
       <input type="radio" name="gender" id="male">
@@ -46,7 +46,73 @@
       <label for="other">Other</label>
       <input type="radio" name="gender" id="female">
     </div>
-  </form>
+    </div>
+  <div class="countries">
+    <select name="country" class="dropdownCountries" id="country">
+      <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
+      <option value="AI" label="Anguilla">Anguilla</option>
+      <option value="AG" label="Antigua and Barbuda">Antigua and Barbuda</option>
+      <option value="AR" label="Argentina">Argentina</option>
+      <option value="AW" label="Aruba">Aruba</option>
+      <option value="BS" label="Bahamas">Bahamas</option>
+      <option value="BB" label="Barbados">Barbados</option>
+      <option value="BZ" label="Belize">Belize</option>
+      <option value="BM" label="Bermuda">Bermuda</option>
+      <option value="BO" label="Bolivia">Bolivia</option>
+      <option value="BR" label="Brazil">Brazil</option>
+      <option value="VG" label="British Virgin Islands">British Virgin Islands</option>
+      <option value="CA" label="Canada">Canada</option>
+      <option value="KY" label="Cayman Islands">Cayman Islands</option>
+      <option value="CL" label="Chile">Chile</option>
+      <option value="CO" label="Colombia">Colombia</option>
+      <option value="CR" label="Costa Rica">Costa Rica</option>
+      <option value="CU" label="Cuba">Cuba</option>
+      <option value="DM" label="Dominica">Dominica</option>
+      <option value="DO" label="Dominican Republic">Dominican Republic</option>
+      <option value="EC" label="Ecuador">Ecuador</option>
+      <option value="SV" label="El Salvador">El Salvador</option>
+      <option value="FK" label="Falkland Islands">Falkland Islands</option>
+      <option value="GF" label="French Guiana">French Guiana</option>
+      <option value="GL" label="Greenland">Greenland</option>
+      <option value="GD" label="Grenada">Grenada</option>
+      <option value="GP" label="Guadeloupe">Guadeloupe</option>
+      <option value="GT" label="Guatemala">Guatemala</option>
+      <option value="GY" label="Guyana">Guyana</option>
+      <option value="HT" label="Haiti">Haiti</option>
+      <option value="HN" label="Honduras">Honduras</option>
+      <option value="JM" label="Jamaica">Jamaica</option>
+      <option value="MQ" label="Martinique">Martinique</option>
+      <option value="MX" label="Mexico">Mexico</option>
+      <option value="MS" label="Montserrat">Montserrat</option>
+      <option value="AN" label="Netherlands Antilles">Netherlands Antilles</option>
+      <option value="NI" label="Nicaragua">Nicaragua</option>
+      <option value="PA" label="Panama">Panama</option>
+      <option value="PY" label="Paraguay">Paraguay</option>
+      <option value="PE" label="Peru">Peru</option>
+      <option value="PR" label="Puerto Rico">Puerto Rico</option>
+      <option value="BL" label="Saint Barthélemy">Saint Barthélemy</option>
+      <option value="KN" label="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+      <option value="LC" label="Saint Lucia">Saint Lucia</option>
+      <option value="MF" label="Saint Martin">Saint Martin</option>
+      <option value="PM" label="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+      <option value="VC" label="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+      <option value="SR" label="Suriname">Suriname</option>
+      <option value="TT" label="Trinidad and Tobago">Trinidad and Tobago</option>
+      <option value="TC" label="Turks and Caicos Islands">Turks and Caicos Islands</option>
+      <option value="VI" label="U.S. Virgin Islands">U.S. Virgin Islands</option>
+      <option value="US" label="United States">United States</option>
+      <option value="UY" label="Uruguay">Uruguay</option>
+      <option value="VE" label="Venezuela">Venezuela</option>
+    </select>
+  </div>
+</fieldset>
+  <div class="acceptTerms">
+    <input type="checkbox" name="terms" id="terms"> 
+    <label for="terms">I agree to the terms and conditions</label>
+  </div>
+  <br>
+    <button type="button" class="btn btn-primary">Submit</button>
+</form>
 </div>
 </body>
 </html>
